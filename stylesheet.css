@@ -1,204 +1,144 @@
 * {
-  box-sizing: border-box;
-}
-
-body {
-  margin: 0;
-  font-family: "Lucida Grande";
-}
-
-a {
-  text-decoration: none;
-}
-
-.clear {
-  clear: left;
-}
-
-.container {
-  max-width: 1170px;
-  padding: 0 15px;
-  margin: 0 auto;
-}
-
-.top-wrapper {
-  padding: 180px 0 100px 0;
-  background-image: url(https://prog-8.com/images/html/advanced/top_en.png);
-  background-size: cover;
-  color: white;
-  text-align: center;
-}
-
-.top-wrapper h1 {
-  opacity: 0.7;
-  font-size: 45px;
-  letter-spacing: 5px;
-  margin-bottom: 10px;
-}
-
-.top-wrapper p {
-  opacity: 0.7;
-  margin-bottom: 3px;
-}
-
-.btn-wrapper {
-  text-align: center;
-  margin: 20px 0;
-}
-
-.btn-wrapper p {
-  margin: 10px 0;
-}
-
-.signup {
-  background-color: #239b76;
-}
-
-.facebook {
-  background-color: #3b5998;
-  margin-right: 10px;
-}
-
-.twitter {
-  background-color: #55acee;
-}
-
-.btn {
-  padding: 12px 24px;
-  color: white;
-  display: inline-block;
-  opacity: 0.8;
-  border-radius: 4px;
-  text-align: center;
-}
-
-.btn:hover {
-  opacity: 1;
-}
-
-.fa {
-  margin-right: 5px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 0;
 }
 
 header {
-  height: 65px;
-  width: 100%;
-  background-color: rgba(34, 49, 52, 0.9);
-  position :fixed;
-  top: 0;
-  z-index: 10;
+    padding-bottom: 25px;
+    color: white;
+    display: flex;
+    align-items: center;
+    background-color: black;
 }
 
-.logo {
-  width: 124px;
-  margin-top: 20px;
+header ul {
+    display: flex;
+    list-style: none;
 }
 
-.header-left {
-  float: left;
+header li {
+    margin: 0 15px 0 15px;
 }
 
-.header-right {
-  float: right;
-  margin-right: -25px;
+header h1 {
+    margin-left: 25px;
 }
 
-.header-right a {
-  line-height: 65px;
-  padding: 0 25px;
-  color: white;
-  display: block;
-  float: left;
-  transition: all 0.5s;
+main {
+    text-align: center;
 }
 
-.header-right a:hover {
-  background-color: rgba(255, 255, 255, 0.3);
+main img {
+    height: 150px;
+    width: 150px;
+    margin-bottom: 40px;
 }
 
-.menu-icon{
-  color: white;
-  float: right;
-  font-size: 25px;
-  padding: 21px 0;
-  display: none;
+main h1 {
+    font-weight: bold;
+    font-size: 40px;
 }
 
-.lesson-wrapper {
-  padding-bottom: 80px;
-  padding-left: 5%;
-  padding-right: 5%;
-  background-color: #f7f7f7;
-  text-align: center;
+main p {
+    font-weight:normal;
 }
 
-.heading {
-  padding-top: 80px;
-  padding-bottom: 50px;
-  color: #5f5d60;
+main span {
+    font-size: 60px;
+    color: #f1d00e;
 }
 
-.heading h2 {
-  font-weight: normal;
+.about {
+    padding: 30px 30px 30px 30px;
+    background-color: #f4f4f4;
+    margin-bottom: 40px;
 }
 
-.lesson {
-  float: left;
-  width: 25%;
+.about h1 {
+    font-weight: bold;
+    font-size: 18px;
 }
 
-.lesson-icon {
-  position: relative;
+.about p {
+    font-size: 12px;
+    font-weight: normal;
 }
 
-.lesson-icon p {
-  position: absolute;
-  top: 44%;
-  width: 100%;
-  color: white;
+.project {
+    padding-bottom: 50px;
+}
+.project h1 {
+        font-weight: bold;
+        font-size: 18px;
 }
 
-.text-contents {
-  width: 80%;
-  display: inline-block;
-  margin-top: 15px;
-  font-size: 15px;
-  color: #b3aeb5;
+.project img {
+    margin: 20px 40px 0 40px;
 }
 
-.heading h3 {
-  font-weight: normal;
+.item {
+    justify-content: center;
+    display: flex;
 }
 
-.message-wrapper {
-  border-bottom: 1px solid #eee;
-  padding-bottom: 80px;
-  text-align: center;
+.content img {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.15);
+    margin-bottom: 0px;
 }
 
-.message {
-  padding: 15px 40px;
-  background-color: #5dca88;
-  cursor: pointer;
-  box-shadow: 0 7px #1a7940;
+.contact {
+    padding: 20px 0px 50px 0px;
+    background-color: #f4f4f4;
 }
 
-.message:active {
-  position: relative;
-  top: 7px;
-  box-shadow: none;
+.contact h1 {
+    font-weight: bold;
+    font-size: 18px;
 }
 
-footer img {
-  width: 125px;
+.email {
+    margin-top: 25px;
+    margin-bottom: 15px;
 }
 
-footer p {
-  color: #b3aeb5;
-  font-size: 12px;
+.email input {
+    padding: 10px 200px 10px 10px;
+    border: 1px #ffffff solid;
+    border-radius: 5px;
 }
 
-footer {
-  padding-top: 30px;
-  padding-bottom: 20px;
+.message textarea {
+    padding: 5px 200px 5px 10px;
+    border-radius: 10px;
+    border: 1px #ffffff solid;
+    margin-bottom: 15px;
 }
+
+.button input {
+    padding: 10px 100px 10px 100px;
+    border: none;
+    background-color: #f7e989;
+    border-radius: 5px;
+}
+
+.footer {
+    background-color: #7c7d82;
+    color: #fff;
+    height: 100px;
+    padding: 50px;
+  }
+  
+  .footer-logo {
+    float: left;
+    font-size: 32px;
+  }
+  
+  .footer-list {
+    float: right;
+  }
+  
+  .footer-list li {
+    list-style: none;
+    padding-bottom: 20px;
+  }
